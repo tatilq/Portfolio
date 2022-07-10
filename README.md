@@ -20,8 +20,7 @@ This is my personal page where you can read a little more about me, my work, my 
       - `una lista lateral resumida de proyectos`
     - `Sección 3`
       - `Muestra gráfica de los proyectos realizados `
-
-      ![home page](./img/projects-page.png)
+       ![home page](./img/header-page-deskop.png)
   - [Skills](#Skills)
     - `Sección 1`
       - `Se enlistán los skills`
