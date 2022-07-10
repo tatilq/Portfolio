@@ -24,7 +24,7 @@
   
   .carousel-slides {
     width: 100vw;
-    height: 30vh;
+    height: 60vh;
     overflow: hidden;
     scroll-behavior: smooth;
     display: flex;
