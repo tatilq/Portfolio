@@ -8,6 +8,9 @@
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/carrousel.css" />
+    <link rel="stylesheet" href="css/media-query.css" />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -37,8 +40,20 @@
         </header>
         <!------------------------Sección de Proyectos------------------------>
         <section id="projects">
-            <div class="section">
+            <!-- <div class="section">
                 <p class="name">PROJECTS</p>
+            </div> -->
+            <div class="carousel-container">
+                <div class="carousel-slides">
+                  <div id="slide1">Anouncement 1</div>
+                  <div id="slide2">Anouncement 2</div>
+                  <div id="slide3">Anouncement 3</div>
+                </div>
+                <div class="carousel-links">
+                  <a class="carousel-dot" href="#slide1"></a>
+                  <a class="carousel-dot" href="#slide2"></a>
+                  <a class="carousel-dot" href="#slide3"></a>
+                </div>
             </div>
         </section>
         <!------------------------Sección de Habilidades------------------------>
@@ -46,6 +61,30 @@
             <div class="section">
                 <p class="name">SKILLS</p>
             </div>
+
+            <div class="container-bar">
+                <div class="contenedor">
+                    <div class="barra">
+                      <div class="texto">GIT </div>
+                    </div>
+                </div>
+                <div class="contenedor">
+                    <div class="barra">
+                      <div class="texto"> HTML </div>
+                    </div>
+                </div>
+                <div class="contenedor">
+                    <div class="barra">
+                      <div class="texto">CSS </div>
+                    </div>
+                </div>
+                <div class="contenedor">
+                    <div class="barra">
+                      <div class="texto">JS </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
         <!------------------------Sección de Contactame------------------------>
         <section id="contact">

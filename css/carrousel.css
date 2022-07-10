@@ -1,0 +1,33 @@
+.carousel-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-dot {
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .carousel-slides > div {
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    color: var(--secondary-font-color);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-slides {
+    width: 100vw;
+    height: 30vh;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }

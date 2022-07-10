@@ -78,7 +78,7 @@ header
     border-radius: 15px;
 }
 /* SECCION DE CONTACTAME*/
-#contact
+#contact, #skills
 {
     background: url("../img/tile2.png");
 }
