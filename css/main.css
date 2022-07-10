@@ -1,6 +1,6 @@
 *
 {
-    /* outline: 1px solid red; */
+    outline: 1px solid white;
     margin: 0px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -44,6 +44,10 @@ header
 .item{
     padding-right: 10px;
 }
+.item a{
+    text-decoration: none;
+    color: white;
+}
 .about-me
 {
     display: flex;
@@ -61,16 +65,16 @@ header
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    /* width: 40%; */
 }
-.projects
+/**/
+.section
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background:  rgb(73,147,165);
     color: white; 
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-/**/
+
