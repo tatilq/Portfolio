@@ -23,6 +23,7 @@ This is my personal page where you can read a little more about me, my work, my 
        ![home page](./img/header-page-deskop.png)
   - [Skills](#Skills)
     - `Sección 1`
+      ![home page](./img/skill-page.png)
       - `Se enlistán los skills`
     
   - [Contacto](#Contacto)
