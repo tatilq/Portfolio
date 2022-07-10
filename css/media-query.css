@@ -1,6 +1,9 @@
 @media screen and (max-width: 600px) {
-    body {
-      background-color: olive;
-      color: white;
+
+   .container-bar
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
   }
