@@ -1,0 +1,76 @@
+*
+{
+    /* outline: 1px solid red; */
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* .container
+{
+    display: flex;
+    flex-direction: column;
+} */
+/*---------------------------Sección del Menú---------------------------*/
+header
+{
+    /* background:  rgb(73,147,165); */
+
+    box-sizing: border-box;
+    overflow: hidden;
+    background: url('../img/header.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+}
+.header
+{
+    background:  rgb(73,147,165);
+    display: flex;
+    justify-content: space-between;
+    color: white; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.name
+{
+    padding-left: 10px;
+}
+.list-main
+{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+}
+.item{
+    padding-right: 10px;
+}
+.about-me
+{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    padding: 80px;
+    margin: 20px;
+    color: white;
+    
+}
+.about-me p
+{
+    background-color:rgba(220,20,60,0.6);
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    /* width: 40%; */
+}
+.projects
+{
+    display: flex;
+    justify-content: space-between;
+    background:  rgb(73,147,165);
+    color: white; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/**/
