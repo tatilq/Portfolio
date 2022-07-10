@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" />
     <title>Portfolio</title>
 </head>
+
 <body>
     <div class="container">
         <!------------------------Sección del Menú------------------------>
         <header>
-            <div class="header"> 
+            <div class="header">
                 <p class="name">Tatiana Limache</p>
                 <ul class="list-main">
                     <li class="item"><a href="#projects">Proyects</a></li>
@@ -21,37 +24,61 @@
                     <li class="item"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-           <div class="about-me">
-                <p>Hi, soy estudiante de KeepCoding, descubrí mí pasión por la programación y considero que esa misma pasión es la que me motiva a lograr cosas grandiosas. </p>
+            <div class="about-me">
+                <p>
+                    Hi, soy estudiante de KeepCoding, descubrí mí pasión por la
+                    programación y considero que esa misma pasión es la que me motiva a
+                    lograr cosas grandiosas.
+                </p>
                 <!-- <button><a href="https://www.facebook.com/mylaidi.tatiana">CONOCE MAS</a></button> -->
-           </div>
+            </div>
         </header>
         <!------------------------Sección de Proyectos------------------------>
-        <div id="projects">
-            <div class="section"><p class="name">PROJECTS</p></div>
-        </div>
+        <section id="projects">
+            <div class="section">
+                <p class="name">PROJECTS</p>
+            </div>
+        </section>
         <!------------------------Sección de Habilidades------------------------>
-        <div id="skills" >
-            <div class="section"><p class="name">SKILLS</p></div> 
+        <div id="skills">
+            <div class="section">
+                <p class="name">SKILLS</p>
+            </div>
         </div>
         <!------------------------Sección de Contactame------------------------>
-        <div id="contact" >
-            <div class="section"><p class="name">CONTACT ME</p></div>
-            <p>¿How do you did meet me?</p>
-            <form class="form-contact">
-              <input type="radio" id="html" name="fav_language" value="HTML">
-              <label for="html">HTML</label><br>
-              <input type="radio" id="css" name="fav_language" value="CSS">
-              <label for="css">CSS</label><br>
-              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-              <label for="javascript">JavaScript</label>
-            </form>            
-        </div>
+        <section id="contact">
+            <div class="section">
+                <p class="name">CONTACT ME</p>
+            </div>
+            <div class="form-container">
+                <form class="form-contact">
+                    <input type="text" id="name" value="" placeholder="Name" required /><br />
+
+                    <input type="text" id="last-name" value="" placeholder="Last Name" required /><br />
+
+                    <input type="text" id="number-phone" value="" placeholder="Number Phone" required /><br />
+                   
+                    <p>¿How do you did meet me?</p>
+                    <input type="radio" id="university" name="fav_language" value="University">
+                    <label for="university">University</label><br />
+                    <input type="radio" id="keepCoding" name="fav_language" value="KeepCoding">
+                    <label for="keepCoding">KeepCoding Kick-Off</label><br />
+                    <input type="radio" id="school" name="fav_language" value="School">
+                    <label for="javascript">School</label><br />
+                    <input type="radio" id="gitHub" name="fav_language" value="GitHub">
+                    <label for="gitHub">GitHub</label><br>
+                    <input type="text" id="number-phone" value="" placeholder="github tag" required /><br />
+                
+                    <textarea type="text" id="comentary" maxlength="180" placeholder="Type a comentary"> </textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
         <!------------------------Sección del Píe de Página------------------------>
-        <div class="footer">
+        <section class="footer">
             <p></p>
-        </div>
+        </section>
     </div>
-   
 </body>
+
 </html>

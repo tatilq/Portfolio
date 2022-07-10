@@ -1,6 +1,6 @@
 *
 {
-    outline: 1px solid white;
+    /* outline: 1px solid white; */
     margin: 0px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -9,6 +9,19 @@
     display: flex;
     flex-direction: column;
 } */
+
+/*-------------------CLASES COMUNES------------*/
+.section
+{
+    display: flex;
+    justify-content: center;
+    background:  rgb(73,147,165);
+    color: white; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
 /*---------------------------Sección del Menú---------------------------*/
 header
 {
@@ -66,15 +79,25 @@ header
     padding: 10px;
     border-radius: 15px;
 }
-/**/
-.section
+/* SECCION DE CONTACTAME*/
+#contact
+{
+    background: url("../img/tile2.png");
+}
+.form-contact
+{
+    padding: 40px;
+    border: 1px solid black;
+    border-radius:15px;
+    background-color:rgba(220,20,60,0.6);
+}
+.form-container
 {
     display: flex;
-    justify-content: center;
-    background:  rgb(73,147,165);
-    color: white; 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    justify-content:center;
 }
 
-
+#comentary
+{
+    height: 50px;;
+}
